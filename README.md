@@ -1,77 +1,38 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMAN 17 Bone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di SMAN 17 Bone</h1>
+        <p>Website resmi SMAN 17 Bone, dikelola oleh Sahrullah</p>
+    </header>
 
-header {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-}
+    <section>
+        <h2>Tentang Kami</h2>
+        <p>SMAN 17 Bone adalah sekolah unggulan di Kabupaten Bone yang menyediakan pendidikan berkualitas tinggi bagi siswa-siswa dari berbagai latar belakang. Kami berkomitmen untuk membentuk generasi penerus yang berprestasi dan berakhlak mulia.</p>
+    </section>
 
-header .header-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
+    <section>
+        <h2>Visi dan Misi</h2>
+        <ul>
+            <li><strong>Visi:</strong> Menjadi sekolah yang berdaya saing global dengan tetap menjunjung tinggi nilai-nilai lokal.</li>
+            <li><strong>Misi:</strong>
+                <ul>
+                    <li>Menyelenggarakan pendidikan yang berkualitas dan merata.</li>
+                    <li>Membentuk karakter siswa yang mandiri, kreatif, dan berakhlak mulia.</li>
+                    <li>Menjalin kerjasama dengan berbagai pihak untuk meningkatkan mutu pendidikan.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
 
-header .logo {
-    max-width: 100px;
-    margin-bottom: 1rem;
-}
-
-header h1 {
-    margin: 0;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    background-color: white;
-    margin: 1rem 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.about h2 {
-    color: #2c3e50;
-}
-
-.about-image {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 1rem;
-}
-
-.vision-mission {
-    padding: 2rem;
-    background-color: #f9f9f9;
-    margin: 1rem 2rem;
-    border-radius: 8px;
-}
-
-.vision-mission h2 {
-    color: #2c3e50;
-}
-
-footer {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-footer .social-media img {
-    max-width: 30px;
-    margin: 0 10px;
-}
-
-footer .social-media a {
-    color: white;
-    text-decoration: none;
-}
+    <footer>
+        <p>&copy; 2024 SMAN 17 Bone | Dikelola oleh Sahrullah</p>
+    </footer>
+</body>
+</html>
