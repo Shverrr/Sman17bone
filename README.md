@@ -1,53 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMAN 17 Bone</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #4682b4;
-            color: white;
-            padding: 20px 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        .content {
-            padding: 20px;
-        }
-        footer {
-            background-color: #4682b4;
-            color: white;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
 
-<header>
-    <h1>Selamat Datang di SMAN 17 Bone</h1>
-</header>
+header .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-<div class="content">
-    <p>Halo, nama saya <strong>Sahrullah</strong>. Saya bangga menjadi bagian dari SMAN 17 Bone.</p>
-    <p>sma ini adalah tempat yang luar biasa untuk belajar, berkembang, dan mencapai impian,serta banyak hal-hal yg luar biasa disekolah sman 17 bone.</p>
-</div>
+header .logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
 
-<footer>
-    <p>&copy; 2024 SMAN 17 Bone. Dibuat dengan bangga oleh Sahrullah.</p>
-</footer>
+header h1 {
+    margin: 0;
+}
 
-</body>
-</html>
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #2c3e50;
+}
+
+.about-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.vision-mission {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.vision-mission h2 {
+    color: #2c3e50;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .social-media img {
+    max-width: 30px;
+    margin: 0 10px;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+}
