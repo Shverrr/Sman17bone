@@ -108,14 +108,9 @@
     <section id="about">
         <h1>Tentang Kami</h1>
         <p>Selamat datang di SMAN 17 Bone, sekolah unggulan di Kabupaten Bone yang berkomitmen untuk memberikan pendidikan berkualitas tinggi kepada siswa dari berbagai latar belakang. Visi kami adalah menjadi sekolah yang berdaya saing global sambil menjunjung tinggi nilai-nilai lokal. Kami bertujuan untuk membentuk generasi penerus yang unggul secara akademis dan memiliki karakter moral yang kuat.</p>
-        
-                       <h1> </h1>
-  
-  
-  
-  <h1></h1> 
-  
-  <h1> .</h1>
+      
+     <p style=margin-bottom: 20px;>terima kasih </p>
+      
   </section>
      
     <section id="gallery">
@@ -127,7 +122,7 @@
             <img src="https://via.placeholder.com/600x400" alt="Gambar Galeri 4">
               </div>
               <h1>                 </h1>
-              <p> _</p>
+              <p> </p>
               <h1>    </h1>
     </section>
     
