@@ -32,7 +32,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 SMAN 17 Bone | Dikelola oleh Sahrullah</p>
+        <p>&copy; 2024 SMAN 17 Bone,salam hangat dari kami</p>
     </footer>
 </body>
 </html>
