@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Selamat Datang di SMAN 17 Bone</h1>
-        <p>Website resmi SMAN 17 Bone, dikelola oleh Sahrullah</p>
+        <p>Website resmi SMAN 17 Bone, yang dikelola oleh Sahrullah</p>
     </header>
 
     <section>
