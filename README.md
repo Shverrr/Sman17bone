@@ -52,12 +52,12 @@
             background-color: #4682b4;
             color: white;
             padding: 20px 0;
-            margin-top: 50px; /* To ensure content is not hidden behind the fixed navbar */
+            margin-top: 50px; /* Menghindari konten tersembunyi di balik navbar */
         }
 
         section {
             padding: 60px 20px;
-            margin-top: 70px; /* Extra space to ensure content is not hidden behind the navbar */
+            margin-top: 70px; /* Menyediakan ruang ekstra agar konten tidak tersembunyi di balik navbar */
         }
 
         .gallery img {
@@ -108,10 +108,7 @@
     <section id="about">
         <h1>Tentang Kami</h1>
         <p>Selamat datang di SMAN 17 Bone, sekolah unggulan di Kabupaten Bone yang berkomitmen untuk memberikan pendidikan berkualitas tinggi kepada siswa dari berbagai latar belakang. Visi kami adalah menjadi sekolah yang berdaya saing global sambil menjunjung tinggi nilai-nilai lokal. Kami bertujuan untuk membentuk generasi penerus yang unggul secara akademis dan memiliki karakter moral yang kuat.</p>
-      
-     <p style=margin-bottom: 20px;>terima kasih </p>
-      
-  </section>
+    </section>
      
     <section id="gallery">
         <h1>Galeri</h1>
@@ -120,10 +117,7 @@
             <img src="https://via.placeholder.com/600x400" alt="Gambar Galeri 2">
             <img src="https://via.placeholder.com/600x400" alt="Gambar Galeri 3">
             <img src="https://via.placeholder.com/600x400" alt="Gambar Galeri 4">
-              </div>
-              <h1>                 </h1>
-              <p> </p>
-              <h1>    </h1>
+        </div>
     </section>
     
     <section id="contact">
