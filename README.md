@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>sman17bone</title>
+  <style>
+    *,html {
+      padding:0;
+      margin:0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color:#9a9a9a;
+    }
+   nav {
+      background-color:white;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem ;
+    }
+    nav ul {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      list-style: none;
+    }
+    nav ul li a {
+      text-decoration: none;
+      font-family: "Segoe UI" Sans-Serif;
+      color: #191919;
+      font-weight: 600;
+      padding: 8px 0;
+      transition: all;
+      transition-duration: 300ms;
+      border-bottom: 1px solid orangered rgba(255,68,0);
+    }
+    nav lu li a:hover {
+      color: orangered;
+      border-bottom: 1px solid orangered;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="menu">
-                <div class="menu-item" id="home">Home</div>
-                <div class="menu-item" id="about">About</div>
-                <div class="menu-item" id="gallery">Gallery</div>
-                <div class="menu-item" id="contact">Contact</div>
-                <div class="menu-item" id="maps">Maps</div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section id="home" class="section">
-            <h1>Welcome to Our Website</h1>
-            <p>This is the home section.</p>
-        </section>
-        <section id="about" class="section">
-            <h1>About Us</h1>
-            <p>This section contains information about us.</p>
-        </section>
-        <section id="gallery" class="section">
-            <h1>Gallery</h1>
-            <p>Check out our gallery.</p>
-        </section>
-        <section id="contact" class="section">
-            <h1>Contact Us</h1>
-            <p>Get in touch with us.</p>
-        </section>
-        <section id="maps" class="section">
-            <h1>Maps</h1>
-            <p>Find us on the map.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Contoh Website. All rights reserved.</p>
-    </footer>
+  <nav>
+    <div class="">
+      <img src="" alt="ullah">
+    </div>
+    <ul>
+      <li>
+        <a href="#">home</a>
+      </li>
+     
+       <li> 
+       <a href="#">about</a>
+      </li>
+      
+      <li> 
+      <a href="#">contac</a>
+     
+      </li>
+     
+      <li> 
+      <a href="#">maps</a>
+      </li>
+    </ul>
+     
+  </nav>
+  
 </body>
 </html>
